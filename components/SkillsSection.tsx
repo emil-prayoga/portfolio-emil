@@ -58,9 +58,9 @@ const skillsBottom = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
   },
   { 
-    name: "Node.js", 
-    category: "Runtime",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    name: "Vercel", 
+    category: "Deployment & Hosting",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg"
   },
 ];
 
