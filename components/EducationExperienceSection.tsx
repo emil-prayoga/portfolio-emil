@@ -6,57 +6,62 @@ const educationData = [
     institution: "Universitas Bahaudin Mudhary Madura",
     period: "2024 — Sekarang",
     description: [
-      "Fokus pada perancangan sistem informasi, arsitektur web modern, manajemen basis data, desain UI/UX mobile maupun dekstop, dan pengembangan perangkat lunak.",
-      "Aktif dalam berbagai kegiatan praktikum akademik, proyek riset kolaboratif, dan mengeksplorasi teknologi modern."
-
-    ],
+      "Mempelajari disiplin ilmu Sistem Informasi selama 4 semester berjalan dengan fokus pada arsitektur web modern, sistem basis data, desain UI/UX, serta analisis dan desain sistem informasi.",
+      "Menerapkan teknologi MySQL, JavaScript, dan Figma melalui eksekusi proyek akademik serta meriset teknologi web modern secara mandiri seperti Next.js, React.js, Tailwind CSS, dan Supabase guna membangun solusi perangkat lunak yang scalable dan berkinerja tinggi.",
+      "Mempertahankan konsistensi performa akademik unggul dan kepemimpinan di kampus, dibuktikan dengan kepercayaan menjabat sebagai Asisten Praktikum di 2 mata kuliah inti (Database & Python)."
+    ]
   },
 ];
 
 const experienceData = [
   {
-    role: "Koordinator Asisten Praktikum Database",
+    role: "Asisten Praktikum Database",
     organization: "Universitas Bahaudin Mudhary Madura",
     period: "Apr 2026 — Jul 2026",
     description: [
-      "Memimpin dan mengoordinasikan tim asisten praktikum dalam perancangan materi, penyusunan soal ujian, serta pelaksanaan modul basis data.",
-      "Membimbing puluhan mahasiswa dalam pemahaman konsep relational database, perancangan ERD, normalisasi data, dan optimasi kueri SQL."
+      "Memimpin tim asisten praktikum dan mengarahkan sesi live coding SQL untuk 35+ mahasiswa praktikan menggunakan MySQL selama 4 bulan guna meningkatkan pemahaman praktis dalam perancangan complex query, DDL/DML, dan optimasi database.",
+      "Mengoordinasi materi praktikum mingguan, menyusun standar evaluasi, serta merekap penilaian akhir proyek secara presisi menggunakan Microsoft Excel untuk menjamin transparansi serta akurasi evaluasi akademik.",
+      "Memfasilitasi sesi pemecahan masalah (troubleshooting) baik mahasiswa kelas online maupun offline secara interaktif, yang berhasil meningkatkan penguasaan sintaks SQL mahasiswa dan mempercepat waktu penyelesaian tugas akhir praktikum."
     ],
   },
   {
-    role: "Pemateri Java & Database",
+    role: "Panitia Pelatihan Java & Database",
     organization: "Universitas Bahaudin Mudhary Madura",
     period: "Maret 2026",
     description: [
-      "Menyampaikan materi pemrograman dasar dan konsep Object-Oriented Programming (OOP) secara terstruktur menggunakan bahasa Java.",
-      "Memberikan sesi mentoring interaktif mengenai perancangan basis data dasar serta integrasi CRUD antara Java dan MySQL bagi peserta."
+      "Bertindak sebagai pembicara utama dan mentor pelatihan dengan menyampaikan materi fundamental Object-Oriented Programming (OOP) serta live debugging basis data menggunakan Java dan MySQL kepada seluruh peserta pelatihan intensif selama 2 hari berturut-turut.",
+      "Merancang alur penyampaian materi dan metode simulasi coding interaktif untuk memudahkan peserta dalam memahami konsep kelas, penyeleksian kondisi, perulangan, serta integrasi database.",
+      "Meningkatkan pemahaman teknis peserta secara signifikan, dibuktikan dengan keberhasilan peserta menyelesaikan tantangan studi kasus pemrograman dan kueri SQL di akhir sesi pelatihan."
     ],
   },
   {
-    role: "Web Developer Freelance & Open Source",
-    organization: "Emilabs & Open Source Projects",
+    role: "Web Developer",
+    organization: "Pekerja Lepas dan Proyek Mandiri",
     period: "Mar 2026 — Sekarang",
     description: [
-      "Merancang dan mengimplementasikan aplikasi web interaktif berkinerja tinggi menggunakan Next.js, Tailwind CSS, TypeScript, dan Supabase.",
-      "Membangun berbagai proyek nyata seperti Notes App, E-Commerce Hijab Collection, dan platform portofolio interaktif dengan standar UI/UX modern."
+      "Mengembangkan aplikasi web modern berkinerja tinggi untuk kebutuhan proyek klien dan internal menggunakan Next.js, React.js, Tailwind CSS v4, dan Supabase selama 5 bulan untuk membangun solusi digital yang responsif, aman, dan scalable.",
+      "Melakukan pengujian unit (unit testing) serta pengetesan fungsional mandiri secara berkala guna mengidentifikasi celah keamanan, eror logika JavaScript, dan kegagalan kueri PostgreSQL sebelum tahap penerapan (deployment).",
+      "Membangun berbagai proyek nyata seperti Notes App, E-Commerce Hijab Collection, dan platform portofolio interaktif dengan standar UI/UX modern.",
     ],
   },
   {
-    role: "Asisten Praktikum Pemrograman Python",
+    role: "Asisten Praktikum Python",
     organization: "Universitas Bahaudin Mudhary Madura",
     period: "Nov 2025 — Jan 2026",
     description: [
-      "Mendampingi sesi praktikum pemrograman Python dasar, konsep logika algoritma, dan pemahaman struktur data bagi mahasiswa tingkat awal.",
-      "Membantu mahasiswa dalam pemecahan masalah teknis (debugging), logika pemodelan, serta melakukan evaluasi tugas praktikum mingguan."
+      "Memandu sesi praktikum dasar pemrograman dan mentransfer pemahaman konsep algoritma serta struktur data kepada 25 praktikan menggunakan Python selama 3 bulan guna membangun fondasi problem-solving yang kuat.",
+      "Mengeksekusi live debugging dan analisis eror kode secara real-time di dalam kelas untuk membantu mahasiswa mengidentifikasi bug pada tugas pemrograman mingguan.",
+      "Mengakselerasi kelancaran sesi praktikum hingga 100% tepat waktu dan mendorong pencapaian tingkat kelulusan tugas praktikan yang tinggi sesuai standar penilaian laboratorium."
     ],
   },
   {
-    role: "Peserta IDCamp 2025 - Frontend Web",
+    role: "Peserta IDCamp 2025",
     organization: "Dicoding Indonesia",
-    period: "Okt 2025 — Feb 2026",
+    period: "Sep 2025 — Jan 2026",
     description: [
-      "Menyelesaikan alur belajar (learning path) Frontend Web Development bersertifikat standar industri yang diselenggarakan oleh Dicoding.",
-      "Menguasai fundamental pengembangan web modern, mencakup HTML5, CSS3, JavaScript ES6+, DOM manipulation, dan prinsip responsive web design."
+      "Menyelesaikan program beasiswa belajar intensif alur Front-End Web Developer bersertifikat standar industri selama 4 bulan guna menguasai arsitektur dan fondasi pengembangan web modern.",
+      "Menerapkan teknologi HTML5, CSS3, JavaScript ES6+, DOM Manipulation, dan prinsip Responsive Web Design melalui eksekusi proyek submission praktis untuk memastikan performa aplikasi yang intuitif serta lintas perangkat.",
+      "Menuntaskan seluruh modul pelatihan akademis dengan standar evaluasi ketat tepat waktu, menghasilkan tingkat kelulusan 100% pada tingkat dasar hingga intermediate serta memperoleh sertifikasi kompetensi resmi Dicoding."
     ],
   },
 ];

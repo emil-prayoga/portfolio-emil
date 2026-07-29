@@ -7,6 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
+    { name: "Beranda", href: "#home" },
     { name: "Tentang", href: "#about" },
     { name: "Pendidikan", href: "#education" },
     { name: "Pengalaman", href: "#experience" },
@@ -23,12 +24,11 @@ export default function Navbar() {
         <nav className="flex items-center justify-between px-5 py-3 rounded-2xl bg-neutral-900/80 backdrop-blur-md border border-neutral-800/80 shadow-lg">
           
           {/* LOGO */}
-          <a 
-            href="#home" 
-            className=" font-bold text-neutral-100 text-lg tracking-tight hover:text-emerald-400 transition-colors"
+          <h2
+            className=" font-bold text-neutral-100 text-lg tracking-tight "
           >
             <span>Emil<span className="text-emerald-400"> Prayoga Albani</span></span>
-          </a>
+          </h2>
 
           {/* DESKTOP NAV */}
           <ul className="hidden md:flex items-center gap-1 lg:gap-2 text-sm font-medium text-neutral-400">

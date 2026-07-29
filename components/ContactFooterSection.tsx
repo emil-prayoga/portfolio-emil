@@ -180,7 +180,7 @@ export default function ContactFooterSection() {
               {/* Social Links */}
               <div className="flex items-center gap-3 pt-2">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/emil-prayoga" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-xl bg-neutral-900 border border-neutral-800 text-neutral-300 hover:text-emerald-400 hover:border-emerald-500/50 transition-all"
@@ -191,7 +191,7 @@ export default function ContactFooterSection() {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://linkedin.com/in/emilprayogaalbani" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-xl bg-neutral-900 border border-neutral-800 text-neutral-300 hover:text-emerald-400 hover:border-emerald-500/50 transition-all"
@@ -202,7 +202,7 @@ export default function ContactFooterSection() {
                   </svg>
                 </a>
                 <a 
-                  href="https://instagram.com" 
+                  href="https://instagram.com/emil_prayoga_albani" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-xl bg-neutral-900 border border-neutral-800 text-neutral-300 hover:text-emerald-400 hover:border-emerald-500/50 transition-all"
@@ -217,13 +217,16 @@ export default function ContactFooterSection() {
 
             {/* KOLOM 2: FOKUS & KEAHLIAN */}
             <div className="flex flex-col lg:col-span-1">
-              <h2 className="font-bold text-sm uppercase tracking-wider text-neutral-200 mb-3">Bidang Utama</h2>
+              <h2 className="font-bold text-sm uppercase tracking-wider text-neutral-200 mb-3">Portfolio</h2>
               <nav>
                 <ul className="flex flex-col gap-2 text-sm">
-                  <li><a href="#skills" className="hover:text-emerald-400 transition-colors">Frontend Web Dev</a></li>
-                  <li><a href="#skills" className="hover:text-emerald-400 transition-colors">Database Management</a></li>
-                  <li><a href="#projects" className="hover:text-emerald-400 transition-colors">Fullstack Next.js</a></li>
-                  <li><a href="#experience" className="hover:text-emerald-400 transition-colors">Asisten Praktikum</a></li>
+                  <li><a href="https://belikopi-modif.netlify.app/" className="hover:text-emerald-400 transition-colors">Coffee Shop</a></li>
+                  <li><a href="https://notes-app-emil.netlify.app/" className="hover:text-emerald-400 transition-colors">Notes App</a></li>
+                  <li><a href="https://firhijab.vercel.app/" className="hover:text-emerald-400 transition-colors">Hijab Collection</a></li>
+                  <li><a href="https://www.figma.com/design/5OVVErhO9TDjsBtTAt4Mh6/Final-Project?node-id=9278-644&t=mzbqYItNsu6zl0Xt-1" className="hover:text-emerald-400 transition-colors">UI/UX Design Portfolio</a></li>
+                  <li><a href="https://kkn-hub-sigma.vercel.app/" className="hover:text-emerald-400 transition-colors">KKN Hub</a></li>
+                  <li><a href="https://emilabs-financial-dashboard.vercel.app/" className="hover:text-emerald-400 transition-colors">Personal Finance Tracker</a></li>
+
                 </ul>
               </nav>
             </div>
