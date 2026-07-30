@@ -25,15 +25,17 @@ export default function Home() {
       {/* 4. Education & Experience */}
       <EducationExperienceSection />
 
-      <div className="max-w-7xl mx-auto  my-6" />
-
-      {/* 5. Skills Auto-Scroll */}
-      <SkillsSection />
+      
 
       <div className="max-w-7xl mx-auto my-6" />
 
       {/* 6. Projects Section */}
       <ProjectsSection />
+
+      <div className="max-w-7xl mx-auto  my-6" />
+
+      {/* 5. Skills Auto-Scroll */}
+      <SkillsSection />
 
       
 

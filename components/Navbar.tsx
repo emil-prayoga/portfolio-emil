@@ -11,8 +11,8 @@ export default function Navbar() {
     { name: "Tentang", href: "#about" },
     { name: "Pendidikan", href: "#education" },
     { name: "Pengalaman", href: "#experience" },
-    { name: "Keahlian", href: "#skills" },
     { name: "Proyek", href: "#projects" },
+    { name: "Keahlian", href: "#skills" },
     { name: "Kontak", href: "#contact" },
   ];
 

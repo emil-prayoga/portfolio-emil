@@ -41,25 +41,25 @@ export const personalProjects = [
     tags: ["Web App", "Vanilla JS", "API"],
     link: "https://notes-app-emil.netlify.app/",
   },
-  {
-    id: 3,
-    title: "Coffee Shop",
-    description: "Landing page bisnis kopi modern yang dirancang responsif untuk segala ukuran layar perangkat. Berfokus pada estetika visual antarmuka guna memperkuat brand awareness dan mendorong konversi pengunjung.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://belikopi-modif.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "Sistem Informasi Perpustakaan",
-    description: "Aplikasi web full-stack manajemen perpustakaan berbasis Laravel dan MySQL dengan autentikasi multi-peran. Dikembangkan secara cepat menggunakan pendekatan AI-assisted development (vibe coding).",
-    tags: ["PHP", "Laravel", "MySQL"],
-    link: "https://github.com/emil-prayoga/library-system",
-  },
-  {
-    id: 1,
-    title: "Portal Lomba Mahasiswa",
-    description: "Perancangan UI/UX prototype web dan mobile berbasis alur 7 tabel ERD serta prinsip Interaksi Manusia Komputer. Berfokus pada kemudahan navigasi mahasiswa dalam mendaftar kompetisi secara terstruktur.",
-    tags: ["Figma", "Web Design", "Mobile Design"],
-    link: "https://www.figma.com/design/2ZFGEhLykuVWlVfGZCIiIv/Sistem-Pendaftaran-Lomba-Mahasiswa?node-id=0-1&t=fDQF0hsJDgZU6Anw-1",
-  }
+  // {
+  //   id: 3,
+  //   title: "Coffee Shop",
+  //   description: "Landing page bisnis kopi modern yang dirancang responsif untuk segala ukuran layar perangkat. Berfokus pada estetika visual antarmuka guna memperkuat brand awareness dan mendorong konversi pengunjung.",
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   link: "https://belikopi-modif.netlify.app/",
+  // },
+  // {
+  //   id: 2,
+  //   title: "Sistem Informasi Perpustakaan",
+  //   description: "Aplikasi web full-stack manajemen perpustakaan berbasis Laravel dan MySQL dengan autentikasi multi-peran. Dikembangkan secara cepat menggunakan pendekatan AI-assisted development (vibe coding).",
+  //   tags: ["PHP", "Laravel", "MySQL"],
+  //   link: "https://github.com/emil-prayoga/library-system",
+  // },
+  // {
+  //   id: 1,
+  //   title: "Portal Lomba Mahasiswa",
+  //   description: "Perancangan UI/UX prototype web dan mobile berbasis alur 7 tabel ERD serta prinsip Interaksi Manusia Komputer. Berfokus pada kemudahan navigasi mahasiswa dalam mendaftar kompetisi secara terstruktur.",
+  //   tags: ["Figma", "Web Design", "Mobile Design"],
+  //   link: "https://www.figma.com/design/2ZFGEhLykuVWlVfGZCIiIv/Sistem-Pendaftaran-Lomba-Mahasiswa?node-id=0-1&t=fDQF0hsJDgZU6Anw-1",
+  // }
 ];

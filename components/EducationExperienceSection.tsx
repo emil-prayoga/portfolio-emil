@@ -1,5 +1,39 @@
 import React from 'react';
 
+const monthOrder: Record<string, number> = {
+  Jan: 0,
+  Feb: 1,
+  Mar: 2,
+  Apr: 3,
+  May: 4,
+  Jun: 5,
+  Jul: 6,
+  Aug: 7,
+  Sep: 8,
+  Oct: 9,
+  Nov: 10,
+  Dec: 11,
+};
+
+const parsePeriodStart = (period: string) => {
+  const match = period.match(/^([A-Za-z]{3})\s+(\d{4})/);
+
+  if (!match) {
+    return [0, 0];
+  }
+
+  return [Number(match[2]), monthOrder[match[1]] ?? 0];
+};
+
+const sortByPeriodDesc = <T extends { period: string }>(items: T[]) => {
+  return [...items].sort((a, b) => {
+    const [aYear, aMonth] = parsePeriodStart(a.period);
+    const [bYear, bMonth] = parsePeriodStart(b.period);
+
+    return bYear - aYear || bMonth - aMonth;
+  });
+};
+
 const educationData = [
   {
     degree: "S1 Sistem Informasi", 
@@ -55,9 +89,13 @@ const experienceData = [
 ];
 
 export default function EducationExperienceSection() {
+  const sortedEducationData = sortByPeriodDesc(educationData);
+  const sortedExperienceData = sortByPeriodDesc(experienceData);
+
   // Membagi data pengalaman menjadi 2 bagian untuk kolom kiri dan kolom kanan
-  const leftColumnExperiences = experienceData.filter((_, i) => i % 2 === 0);
-  const rightColumnExperiences = experienceData.filter((_, i) => i % 2 !== 0);
+  const splitIndex = Math.ceil(sortedExperienceData.length / 2);
+  const leftColumnExperiences = sortedExperienceData.slice(0, splitIndex);
+  const rightColumnExperiences = sortedExperienceData.slice(splitIndex);
 
   return (
     <section id="education" className="py-20 max-w-7xl mx-auto space-y-20 scroll-mt-20">
@@ -74,10 +112,10 @@ export default function EducationExperienceSection() {
         </div>
 
         <div className="relative border-l border-neutral-800 ml-4 md:ml-6 pl-6 md:pl-8">
-          {educationData.map((item, index) => (
+          {sortedEducationData.map((item, index) => (
             <div key={index} className="relative group">
               {/* Titik indikator timeline */}
-              <div className="absolute -left-[31px] md:-left-[39px] top-2 w-3.5 h-3.5 rounded-full bg-neutral-800 border-2 border-neutral-950 group-hover:bg-emerald-400 group-hover:scale-125 transition-all z-10" />
+              <div className="absolute -left-7.75 md:-left-9.75 top-2 w-3.5 h-3.5 rounded-full bg-neutral-800 border-2 border-neutral-950 group-hover:bg-emerald-400 group-hover:scale-125 transition-all z-10" />
               
               <div className="p-6 rounded-2xl bg-neutral-900/60 border border-neutral-800/80 hover:border-neutral-700 transition-all">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-1">
@@ -126,7 +164,7 @@ export default function EducationExperienceSection() {
               {leftColumnExperiences.map((item, index) => (
                 <div key={index} className="relative group">
                   {/* Titik indikator timeline */}
-                  <div className="absolute -left-[31px] md:-left-[39px] top-2 w-3.5 h-3.5 rounded-full bg-neutral-800 border-2 border-neutral-950 group-hover:bg-emerald-400 group-hover:scale-125 transition-all z-10" />
+                  <div className="absolute -left-7.75 md:-left-9.75 top-2 w-3.5 h-3.5 rounded-full bg-neutral-800 border-2 border-neutral-950 group-hover:bg-emerald-400 group-hover:scale-125 transition-all z-10" />
                   
                   <div className="p-6 rounded-2xl bg-neutral-900/60 border border-neutral-800/80 hover:border-neutral-700 transition-all flex flex-col justify-between">
                     <div>
@@ -157,7 +195,7 @@ export default function EducationExperienceSection() {
               {rightColumnExperiences.map((item, index) => (
                 <div key={index} className="relative group">
                   {/* Titik indikator timeline */}
-                  <div className="absolute -left-[31px] md:-left-[39px] top-2 w-3.5 h-3.5 rounded-full bg-neutral-800 border-2 border-neutral-950 group-hover:bg-emerald-400 group-hover:scale-125 transition-all z-10" />
+                  <div className="absolute -left-7.75 md:-left-9.75 top-2 w-3.5 h-3.5 rounded-full bg-neutral-800 border-2 border-neutral-950 group-hover:bg-emerald-400 group-hover:scale-125 transition-all z-10" />
                   
                   <div className="p-6 rounded-2xl bg-neutral-900/60 border border-neutral-800/80 hover:border-neutral-700 transition-all flex flex-col justify-between">
                     <div>
