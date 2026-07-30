@@ -1,7 +1,7 @@
 export const personalProjects = [
   {
     id: 9,
-    title: "Smart UMKM Web App & AI ChatBot",
+    title: "Smart UMKM & AI ChatBot",
     description: "Web mobile-first dengan Next.js, Supabase, dan Tailwind CSS v4 berdesain drawer sidebar ala Gmail. Mengintegrasikan Groq AI API secara interaktif untuk analisis strategi bisnis UMKM secara otomatis.",
     tags: ["Next.js", "AI Integration", "Tailwind CSS"],
     link: "https://smart-umkm-sigma.vercel.app/",
@@ -22,7 +22,7 @@ export const personalProjects = [
   },
   {
     id: 6,
-    title: "Aplikasi Peminjaman Buku Perpustakaan",
+    title: "Library App UI/UX",
     description: "Merancang wireframe dan interactive prototype aplikasi seluler menggunakan pendekatan User Centered Design (UCD). Hasil pengujian desain menghasilkan skor kepuasan pengguna yang sangat tinggi mencapai 97.9%.",
     tags: ["UI/UX Design", "Figma", "Wireframing"],
     link: "https://www.figma.com/design/5OVVErhO9TDjsBtTAt4Mh6/Final-Project?node-id=9278-644&t=mzbqYItNsu6zl0Xt-1",
@@ -57,7 +57,7 @@ export const personalProjects = [
   },
   {
     id: 1,
-    title: "Sistem Pendaftaran Lomba Mahasiswa",
+    title: "Portal Lomba Mahasiswa",
     description: "Perancangan UI/UX prototype web dan mobile berbasis alur 7 tabel ERD serta prinsip Interaksi Manusia Komputer. Berfokus pada kemudahan navigasi mahasiswa dalam mendaftar kompetisi secara terstruktur.",
     tags: ["Figma", "Web Design", "Mobile Design"],
     link: "https://www.figma.com/design/2ZFGEhLykuVWlVfGZCIiIv/Sistem-Pendaftaran-Lomba-Mahasiswa?node-id=0-1&t=fDQF0hsJDgZU6Anw-1",
