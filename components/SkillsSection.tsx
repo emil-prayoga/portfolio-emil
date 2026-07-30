@@ -9,7 +9,7 @@ const skillsTop = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
   },
   { 
-    name: "React", 
+    name: "React.js", 
     category: "Frontend",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
