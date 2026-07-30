@@ -6,8 +6,8 @@ const educationData = [
     institution: "Universitas Bahaudin Mudhary Madura",
     period: "2024 — Sekarang",
     description: [
-      "Mempelajari disiplin ilmu Sistem Informasi selama 4 semester berjalan dengan fokus pada arsitektur web modern, sistem basis data, desain UI/UX, serta analisis dan desain sistem informasi.",
-      "Menerapkan teknologi MySQL, JavaScript, dan Figma melalui eksekusi proyek akademik serta meriset teknologi web modern secara mandiri seperti Next.js, React.js, Tailwind CSS, dan Supabase guna membangun solusi perangkat lunak yang scalable dan berkinerja tinggi.",
+      "Mempelajari disiplin ilmu Sistem Informasi selama 4 semester berjalan dengan fokus pada arsitektur web modern, sistem basis data, desain UI/UX, serta interaksi manusia dan komputer.",
+      "Menerapkan teknologi SQL, JavaScript, dan Figma melalui eksekusi proyek akademik serta meriset teknologi web modern secara mandiri seperti Next.js, React.js, Tailwind CSS, dan Supabase guna membangun solusi perangkat lunak yang scalable dan berkinerja tinggi.",
       "Mempertahankan konsistensi performa akademik unggul dan kepemimpinan di kampus, dibuktikan dengan kepercayaan menjabat sebagai Asisten Praktikum di 2 mata kuliah inti (Database & Python)."
     ]
   },
@@ -17,47 +17,35 @@ const experienceData = [
   {
     role: "Asisten Praktikum Database",
     organization: "Universitas Bahaudin Mudhary Madura",
-    period: "Apr 2026 — Jul 2026",
+    period: "Apr 2026 - Jul 2026",
     description: [
-      "Memimpin tim asisten praktikum dan mengarahkan sesi live coding SQL untuk 35+ mahasiswa praktikan menggunakan MySQL selama 4 bulan guna meningkatkan pemahaman praktis dalam perancangan complex query, DDL/DML, dan optimasi database.",
-      "Mengoordinasi materi praktikum mingguan, menyusun standar evaluasi, serta merekap penilaian akhir proyek secara presisi menggunakan Microsoft Excel untuk menjamin transparansi serta akurasi evaluasi akademik.",
-      "Memfasilitasi sesi pemecahan masalah (troubleshooting) baik mahasiswa kelas online maupun offline secara interaktif, yang berhasil meningkatkan penguasaan sintaks SQL mahasiswa dan mempercepat waktu penyelesaian tugas akhir praktikum."
-    ],
-  },
-  {
-    role: "Panitia Pelatihan Java & Database",
-    organization: "Universitas Bahaudin Mudhary Madura",
-    period: "Maret 2026",
-    description: [
-      "Bertindak sebagai pembicara utama dan mentor pelatihan dengan menyampaikan materi fundamental Object-Oriented Programming (OOP) serta live debugging basis data menggunakan Java dan MySQL kepada seluruh peserta pelatihan intensif selama 2 hari berturut-turut.",
-      "Merancang alur penyampaian materi dan metode simulasi coding interaktif untuk memudahkan peserta dalam memahami konsep kelas, penyeleksian kondisi, perulangan, serta integrasi database.",
-      "Meningkatkan pemahaman teknis peserta secara signifikan, dibuktikan dengan keberhasilan peserta menyelesaikan tantangan studi kasus pemrograman dan kueri SQL di akhir sesi pelatihan."
+      "Berkolaborasi dengan tim asisten untuk mengarahkan live coding SQL untuk 35+ mahasiswa menggunakan MySQL selama 4 bulan guna meningkatkan pemahaman query kompleks, DDL/DML, dan optimasi database. ",
+      "Memfasilitasi sesi troubleshooting interaktif dan mengelola rekapitulasi penilaian akhir proyek dengan presisi menggunakan Microsoft Excel untuk 40+ mahasiswa. ",
     ],
   },
   {
     role: "Web Developer",
     organization: "Pekerja Lepas dan Proyek Mandiri",
-    period: "Mar 2026 — Sekarang",
+    period: "Mar 2026 - Sekarang",
     description: [
-      "Mengembangkan aplikasi web modern berkinerja tinggi untuk kebutuhan proyek klien dan internal menggunakan Next.js, React.js, Tailwind CSS v4, dan Supabase selama 5 bulan untuk membangun solusi digital yang responsif, aman, dan scalable.",
-      "Melakukan pengujian unit (unit testing) serta pengetesan fungsional mandiri secara berkala guna mengidentifikasi celah keamanan, eror logika JavaScript, dan kegagalan kueri PostgreSQL sebelum tahap penerapan (deployment).",
-      "Membangun berbagai proyek nyata seperti Notes App, E-Commerce Hijab Collection, dan platform portofolio interaktif dengan standar UI/UX modern.",
+      "Menerjemahkan referensi UI/UX menjadi antarmuka web Next.js yang responsif mobile-first, memastikan navigasi intuitif serta konsistensi elemen visual di berbagai ukuran layar. ",
+      "Mengoptimalkan alur kerja frontend development menggunakan teknik vibe coding (AI-assisted prompt) untuk mempercepat pembuatan komponen UI modular secara presisi.",
+      "Melakukan penjangkauan ke 80+ prospek UMKM secara remote, merancang arsitektur sistem e-commerce, serta mengeksekusi 5+ proyek antarmuka web terintegrasi CI/CD via Vercel & GitHub.",
     ],
   },
   {
     role: "Asisten Praktikum Python",
     organization: "Universitas Bahaudin Mudhary Madura",
-    period: "Nov 2025 — Jan 2026",
+    period: "Nov 2025 - Jan 2026",
     description: [
-      "Memandu sesi praktikum dasar pemrograman dan mentransfer pemahaman konsep algoritma serta struktur data kepada 25 praktikan menggunakan Python selama 3 bulan guna membangun fondasi problem-solving yang kuat.",
-      "Mengeksekusi live debugging dan analisis eror kode secara real-time di dalam kelas untuk membantu mahasiswa mengidentifikasi bug pada tugas pemrograman mingguan.",
-      "Mengakselerasi kelancaran sesi praktikum hingga 100% tepat waktu dan mendorong pencapaian tingkat kelulusan tugas praktikan yang tinggi sesuai standar penilaian laboratorium."
-    ],
+      "Memandu sesi praktikum dan mengajar konsep algoritma serta struktur data kepada 25+ praktikan menggunakan Python selama 3 bulan. ",
+      "Mengeksekusi live debugging secara real-time untuk membantu praktikan menyelesaikan rangkaian kegiatan praktikum mingguan berbasis 5 modul utama.",
+    ]
   },
   {
     role: "Peserta IDCamp 2025",
     organization: "Dicoding Indonesia",
-    period: "Sep 2025 — Jan 2026",
+    period: "Sep 2025 - Jan 2026",
     description: [
       "Menyelesaikan program beasiswa belajar intensif alur Front-End Web Developer bersertifikat standar industri selama 4 bulan guna menguasai arsitektur dan fondasi pengembangan web modern.",
       "Menerapkan teknologi HTML5, CSS3, JavaScript ES6+, DOM Manipulation, dan prinsip Responsive Web Design melalui eksekusi proyek submission praktis untuk memastikan performa aplikasi yang intuitif serta lintas perangkat.",

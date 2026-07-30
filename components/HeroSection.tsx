@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 
 const words = [
   "Frontend Developer.",
-  "QA Tester.",
   "UI/UX Enthusiast.",
   "Full-Stack Learner.",
 ];

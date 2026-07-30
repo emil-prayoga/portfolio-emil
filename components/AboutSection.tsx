@@ -32,7 +32,7 @@ export default function AboutSection() {
             </h2>
 
           <p className="text-neutral-400 leading-relaxed text-base sm:text-lg">
-            Mahasiswa S1 Sistem Informasi semester 5 dan Full-Stack Developer yang berpengalaman memimpin operasional kelas praktikum serta mengedukasi puluhan mahasiswa dalam debugging kode SQL, Java, dan Python selama 2 semester. Berhasil membangun dan menguji kinerja fungsional aplikasi berbasis web Next.js dan Supabase hingga tahap penerapan di Vercel tanpa kendala bug kritis. Menguasai analisis struktur kode dan pengolahan data menggunakan Excel. Siap meningkatkan kualitas produk digital perusahaan melalui metode QA Testing yang analitis, teliti, dan fleksibel secara jarak jauh.
+            Frontend Developer (UI/UX) yang adaptif dan terbiasa bekerja secara remote atau jarak jauh. Berfokus pada pengembangan antarmuka web yang responsif mobile-first, intuitif, dan menerapkan User-friendly design mindset dengan memperhatikan detail visual yang tinggi. Mahir menganalisis referensi antarmuka aplikasi populer dan mengonversinya langsung menjadi kode Frontend modular (Next.js, React, Tailwind CSS) berbasis vibe coding secara presisi.
           </p>
 
         </div>
