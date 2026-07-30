@@ -41,8 +41,6 @@ const educationData = [
     period: "2024 — Sekarang",
     description: [
       "Mempelajari disiplin ilmu Sistem Informasi selama 4 semester berjalan dengan fokus pada arsitektur web modern, sistem basis data, desain UI/UX, serta interaksi manusia dan komputer.",
-      "Menerapkan teknologi SQL, JavaScript, dan Figma melalui eksekusi proyek akademik serta meriset teknologi web modern secara mandiri seperti Next.js, React.js, Tailwind CSS, dan Supabase guna membangun solusi perangkat lunak yang scalable dan berkinerja tinggi.",
-      "Mempertahankan konsistensi performa akademik unggul dan kepemimpinan di kampus, dibuktikan dengan kepercayaan menjabat sebagai Asisten Praktikum di 2 mata kuliah inti (Database & Python)."
     ]
   },
 ];
