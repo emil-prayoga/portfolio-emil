@@ -220,7 +220,7 @@ export default function ContactFooterSection() {
               <h2 className="font-bold text-sm uppercase tracking-wider text-neutral-200 mb-3">Best Portfolio</h2>
               <nav>
                 <ul className="flex flex-col gap-2 text-sm">
-                  <li><a href="https://firhijab.vercel.app/" className="hover:text-emerald-400 transition-colors">Smart UMKM & AI ChatBot</a></li>
+                  <li><a href="https://smart-umkm-sigma.vercel.app/" className="hover:text-emerald-400 transition-colors">Smart UMKM & AI ChatBot</a></li>
                   <li><a href="https://emilabs-financial-dashboard.vercel.app/" className="hover:text-emerald-400 transition-colors">Personal Finance Tracker</a></li>
                   <li><a href="https://shopify-shop-emilabs.vercel.app/" className="hover:text-emerald-400 transition-colors">Shopify Shop</a></li>
                   <li><a href="https://firhijab.vercel.app/" className="hover:text-emerald-400 transition-colors">Hijab Collection</a></li>
