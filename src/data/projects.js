@@ -3,7 +3,7 @@ export const personalProjects = [
     id: 9,
     title: "Smart UMKM & AI ChatBot",
     description: "Web mobile-first dengan Next.js, Supabase, dan Tailwind CSS v4 berdesain drawer sidebar ala Gmail. Mengintegrasikan Groq AI API secara interaktif untuk analisis strategi bisnis UMKM secara otomatis.",
-    tags: ["Next.js", "AI Integration", "Tailwind CSS"],
+    tags: ["Next.js", "AI API Integration", "Tailwind CSS"],
     link: "https://smart-umkm-sigma.vercel.app/",
   },
   {
@@ -38,7 +38,7 @@ export const personalProjects = [
     id: 4,
     title: "Notes App",
     description: "Aplikasi manajemen catatan dan tugas harian berbasis Vanilla JavaScript dengan interaksi UI yang ringan. Menggunakan integrasi REST API untuk penyimpanan data secara dinamis serta efisiensi produktivitas.",
-    tags: ["Web App", "Vanilla JS", "API"],
+    tags: ["Web App", "Vanilla JS", "API Integration"],
     link: "https://notes-app-emil.netlify.app/",
   },
   // {
