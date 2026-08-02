@@ -37,7 +37,7 @@ export const personalProjects = [
     description: "Storefront katalog fashion modern yang dibangun dengan React dan Tailwind CSS untuk tampilan yang bersih. Menghadirkan visual produk yang kuat serta navigasi halus demi meningkatkan keterikatan pengguna.",
     tags: ["JavaScript", "React.js", "Tailwind"],
     link: "https://firhijab.vercel.app/",
-    githubUrl: "https://github.com/emil-prayoga/firhijab",
+    githubUrl: "https://github.com/emil-prayoga/hijab-collection",
   },
   {
     id: 4,
