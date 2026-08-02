@@ -2,9 +2,10 @@ export const personalProjects = [
   {
     id: 9,
     title: "Smart UMKM & AI ChatBot",
-    description: "Web mobile-first dengan Next.js, Supabase, dan Tailwind CSS v4 berdesain drawer sidebar ala Gmail. Mengintegrasikan Groq AI API secara interaktif untuk analisis strategi bisnis UMKM secara otomatis.",
+    description: "Aplikasi web mobile-first yang mengintegrasikan Groq AI API untuk analisis strategi bisnis UMKM secara otomatis. Mengusung antarmuka modern dengan drawer sidebar terinspirasi dari Gmail, dibangun menggunakan Next.js, dan Supabase.",
     tags: ["Next.js", "AI API Integration", "Tailwind CSS"],
     link: "https://smart-umkm-sigma.vercel.app/",
+    githubUrl: "https://github.com/emil-prayoga/smart-umkm",
   },
   {
     id: 8,
@@ -12,6 +13,7 @@ export const personalProjects = [
     description: "Aplikasi manajemen keuangan pribadi interaktif dengan fitur pencatatan transaksi lengkap dan paginasi data. Dilengkapi visualisasi mode gelap (Dark Mode) modern serta desain antarmuka yang sangat responsif.",
     tags: ["Next.js", "React.js", "Tailwind CSS"],
     link: "https://emilabs-financial-dashboard.vercel.app/",
+    githubUrl: "https://github.com/emil-prayoga/emilabs-financial-dashboard ",
   },
   {
     id: 7,
@@ -19,13 +21,15 @@ export const personalProjects = [
     description: "Web e-commerce modern berbasis React App Router dengan alur navigasi belanja yang interaktif dan lancar. Mengintegrasikan REST API untuk menyajikan katalog produk dinamis hingga pengelolaan keranjang.",
     tags: ["React.js", "API Integration", "Tailwind CSS"],
     link: "https://shopify-shop-emilabs.vercel.app/",
+    githubUrl: "https://github.com/emil-prayoga/shopify-shop",
   },
   {
     id: 6,
     title: "Library App UI/UX",
     description: "Merancang wireframe dan interactive prototype aplikasi seluler menggunakan pendekatan User Centered Design (UCD). Hasil pengujian desain menghasilkan skor kepuasan pengguna yang sangat tinggi mencapai 97.9%.",
     tags: ["UI/UX Design", "Figma", "Wireframing"],
-    link: "https://www.figma.com/design/5OVVErhO9TDjsBtTAt4Mh6/Final-Project?node-id=9278-644&t=mzbqYItNsu6zl0Xt-1",
+    link: "https://www.figma.com/proto/5OVVErhO9TDjsBtTAt4Mh6/Final-Project?page-id=9278%3A644&node-id=13069-869&p=f&viewport=438%2C217%2C0.07&t=zpe0RA9Ucnt6LNtG-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=13109%3A2004",
+    figmaUrl: "https://www.figma.com/design/5OVVErhO9TDjsBtTAt4Mh6/Final-Project?node-id=9278-644&t=mzbqYItNsu6zl0Xt-1",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const personalProjects = [
     description: "Storefront katalog fashion modern yang dibangun dengan React dan Tailwind CSS untuk tampilan yang bersih. Menghadirkan visual produk yang kuat serta navigasi halus demi meningkatkan keterikatan pengguna.",
     tags: ["JavaScript", "React.js", "Tailwind"],
     link: "https://firhijab.vercel.app/",
+    githubUrl: "https://github.com/emil-prayoga/firhijab",
   },
   {
     id: 4,
@@ -40,26 +45,6 @@ export const personalProjects = [
     description: "Aplikasi manajemen catatan dan tugas harian berbasis Vanilla JavaScript dengan interaksi UI yang ringan. Menggunakan integrasi REST API untuk penyimpanan data secara dinamis serta efisiensi produktivitas.",
     tags: ["Web App", "Vanilla JS", "API Integration"],
     link: "https://notes-app-emil.netlify.app/",
+    githubUrl: "https://github.com/emil-prayoga/notes-app",
   },
-  // {
-  //   id: 3,
-  //   title: "Coffee Shop",
-  //   description: "Landing page bisnis kopi modern yang dirancang responsif untuk segala ukuran layar perangkat. Berfokus pada estetika visual antarmuka guna memperkuat brand awareness dan mendorong konversi pengunjung.",
-  //   tags: ["HTML", "CSS", "JavaScript"],
-  //   link: "https://belikopi-modif.netlify.app/",
-  // },
-  // {
-  //   id: 2,
-  //   title: "Sistem Informasi Perpustakaan",
-  //   description: "Aplikasi web full-stack manajemen perpustakaan berbasis Laravel dan MySQL dengan autentikasi multi-peran. Dikembangkan secara cepat menggunakan pendekatan AI-assisted development (vibe coding).",
-  //   tags: ["PHP", "Laravel", "MySQL"],
-  //   link: "https://github.com/emil-prayoga/library-system",
-  // },
-  // {
-  //   id: 1,
-  //   title: "Portal Lomba Mahasiswa",
-  //   description: "Perancangan UI/UX prototype web dan mobile berbasis alur 7 tabel ERD serta prinsip Interaksi Manusia Komputer. Berfokus pada kemudahan navigasi mahasiswa dalam mendaftar kompetisi secara terstruktur.",
-  //   tags: ["Figma", "Web Design", "Mobile Design"],
-  //   link: "https://www.figma.com/design/2ZFGEhLykuVWlVfGZCIiIv/Sistem-Pendaftaran-Lomba-Mahasiswa?node-id=0-1&t=fDQF0hsJDgZU6Anw-1",
-  // }
 ];
