@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T05:02:35Z",
+  "title": "Design System: Emil Prayoga Albani Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "gallery-ink": { "role": "neutral", "displayName": "Gallery Ink" },
+      "raised-ink": { "role": "neutral", "displayName": "Raised Ink" },
+      "deep-ink": { "role": "neutral", "displayName": "Deep Ink" },
+      "vermilion": { "role": "primary", "displayName": "Vermilion Signal" },
+      "warm-white": { "role": "neutral", "displayName": "Warm White" },
+      "soft-white": { "role": "neutral", "displayName": "Soft White" },
+      "muted-stone": { "role": "neutral", "displayName": "Muted Stone" },
+      "gallery-rule": { "role": "neutral", "displayName": "Gallery Rule" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Gallery Display", "purpose": "Portfolio greeting and featured project titles." },
+      "body": { "displayName": "Gallery Text", "purpose": "Biography, project details, and controls." },
+      "label": { "displayName": "Exhibit Label", "purpose": "Section and project metadata." }
+    },
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Exhibition Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A square vermilion action used for the portfolio's clearest next step.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#projects\">Jelajahi karya</a>",
+      "css": ".ds-btn-primary { display: inline-flex; min-height: 48px; align-items: center; padding: 0 20px; background: #e7785d; color: #101110; font: 600 14px Arial, sans-serif; text-decoration: none; transition: background-color 160ms ease; } .ds-btn-primary:hover { background: #f18b70; } .ds-btn-primary:focus-visible { outline: 2px solid #f1efe9; outline-offset: 3px; }"
+    },
+    {
+      "name": "Exhibition Project Plate",
+      "kind": "custom",
+      "description": "A typographic work title, placed beside its actual description and links.",
+      "html": "<article class=\"ds-project\"><p>Proyek pilihan</p><h2>Smart UMKM &amp; AI ChatBot</h2></article>",
+      "css": ".ds-project { display: flex; min-height: 288px; flex-direction: column; justify-content: space-between; padding: 36px; background: #e7785d; color: #101110; } .ds-project p { font: 700 10px Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; } .ds-project h2 { max-width: 12ch; margin: 0; font: 400 clamp(40px, 5vw, 60px)/.98 Georgia, serif; letter-spacing: -.04em; }"
+    },
+    {
+      "name": "Contact Text Field",
+      "kind": "input",
+      "description": "A square, clearly labeled field on the darker contact surface.",
+      "html": "<label class=\"ds-field-label\" for=\"name\">Nama Lengkap</label><input class=\"ds-field\" id=\"name\" placeholder=\"Masukkan nama kamu\" />",
+      "css": ".ds-field-label { display: block; margin-bottom: 8px; color: #d2cfc7; font: 400 14px Arial, sans-serif; } .ds-field { width: 100%; min-height: 48px; padding: 0 16px; border: 1px solid rgb(241 239 233 / 15%); border-radius: 0; background: #101110; color: #f1efe9; font: 400 14px Arial, sans-serif; } .ds-field::placeholder { color: #89877f; } .ds-field:focus-visible { border-color: #e7785d; outline: 2px solid #e7785d; outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Digital Exhibition",
+    "overview": "The portfolio behaves like a considered exhibition space. The portrait, featured project, and real project records receive the wall space, and visitors move through open sections at their own pace. Deep ink, warm lettering, and restrained vermilion support the work without inventing project imagery.",
+    "keyCharacteristics": [
+      "Portrait and featured project share the first viewport.",
+      "Open, varied project records rather than a uniform card wall.",
+      "Education and experience read as labeled exhibits.",
+      "Flat surfaces, thin separators, and visible focus states."
+    ],
+    "rules": [
+      { "name": "The Work Is the Artwork Rule", "body": "Do not invent project images, outcomes, testimonials, or credentials.", "section": "colors" },
+      { "name": "The Work Leads Rule", "body": "The featured project and real links remain visible and easy to find.", "section": "typography" }
+    ],
+    "dos": [
+      "Keep the portrait, project names, and descriptions factual.",
+      "Use vermilion sparingly for navigation and actions.",
+      "Keep gallery labels concise and quiet."
+    ],
+    "donts": [
+      "Do not fabricate project previews when screenshots are absent.",
+      "Do not use emerald accents, gradients, generic blur, or a uniform icon-card grid."
+    ]
+  }
+}

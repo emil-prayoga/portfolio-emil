@@ -1,42 +1,24 @@
-"use client";
-import profileImg from '@/src/img/image.png';
+import Link from "next/link";
+import { ArrowUpRight, Code2, Gauge, WandSparkles } from "lucide-react";
+
+const highlights = [
+  { icon: Code2, value: "5+", label: "Web projects" },
+  { icon: Gauge, value: "Mobile-first", label: "Cara membangun" },
+  { icon: WandSparkles, value: "UI × Code", label: "Fokus utama" },
+];
+
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 max-w-7xl mx-auto scroll-mt-20">
-      <div className="flex flex-col md:flex-row items-center gap-12">
-        
-        {/* Frame Foto Profile */}
-        <div className="relative group w-64 h-64 sm:w-80 sm:h-80 shrink-0">
-          {/* Border glowing di belakang foto */}
-          <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-emerald-500 to-neutral-600 opacity-30 group-hover:opacity-60 transition duration-500 blur-lg"></div>
-          
-          {/* Elemen pembungkus diberi group */}
-<div className="relative w-full h-full rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900 group w-64 h-64 sm:w-80 sm:h-80 shrink-0">
-  <img
-    src={profileImg.src}
-    alt="Profile Emil"
-    /* group-hover untuk desktop, group-active untuk mobile */
-    className="w-full h-full object-cover object-[center_40%] grayscale group-hover:grayscale-0 group-active:grayscale-0 transition-all duration-500"
-    onError={(e) => {
-      e.currentTarget.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60";
-    }}
-  />
-</div>
+    <section id="about" className="gallery-section border-t border-white/10">
+      <div className="gallery-shell grid gap-10 md:grid-cols-[.8fr_1.2fr] md:gap-20">
+        <div><p className="gallery-label mb-4">Sedikit tentang saya</p><h2 className="max-w-[8ch] text-5xl font-semibold leading-[.95] tracking-[-.065em] sm:text-6xl">Desain yang terasa. Kode yang bekerja.</h2></div>
+        <div>
+          <p className="max-w-3xl text-lg leading-8 text-[#d1d0d5] sm:text-xl sm:leading-9">Saya Frontend Developer yang menyukai titik temu antara desain dan teknologi. Saya mengubah ide dan referensi menjadi antarmuka web yang responsif, intuitif, dan teliti sampai ke detail kecilnya.</p>
+          <div className="mt-9 grid grid-cols-1 gap-3 sm:grid-cols-3">
+            {highlights.map(({ icon: Icon, value, label }) => <div key={label} className="rounded-2xl border border-white/10 bg-white/[.035] p-4"><Icon aria-hidden="true" className="mb-5 h-4 w-4 text-[#c8f36a]" /><p className="text-lg font-semibold tracking-tight">{value}</p><p className="mt-1 text-xs text-[#89877f]">{label}</p></div>)}
+          </div>
+          <Link href="#experience" className="gallery-focus mt-7 inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-[#c8f36a]">Lihat perjalanan saya <ArrowUpRight aria-hidden="true" className="h-4 w-4" /></Link>
         </div>
-
-        {/* Deskripsi Tentang Kamu */}
-        <div className="space-y-2 flex-1">
-
-            <h2 className="text-3xl sm:text-5xl font-bold text-neutral-100 tracking-tight leading-tight">
-             Tentang Saya
-            </h2>
-
-          <p className="text-neutral-400 leading-relaxed text-base sm:text-lg">
-            Frontend Developer (UI/UX) yang adaptif dan terbiasa bekerja secara remote atau jarak jauh. Berfokus pada pengembangan antarmuka web yang responsif mobile-first, intuitif, dan menerapkan User-friendly design mindset dengan memperhatikan detail visual yang tinggi. Mahir menganalisis referensi antarmuka aplikasi populer dan mengonversinya langsung menjadi kode Frontend modular (Next.js, React, Tailwind CSS) berbasis vibe coding secara presisi.
-          </p>
-
-        </div>
-
       </div>
     </section>
   );
