@@ -10,11 +10,10 @@ export default function HeroSection() {
   return (
     <section id="home" className="hero gallery-shell grid grid-cols-1 items-center gap-12 md:grid-cols-[1.1fr_.9fr] md:gap-14 lg:gap-20">
       <div className="flex flex-col items-start">
-        <p className="gallery-label mb-6 inline-flex items-center gap-2"><Sparkles aria-hidden="true" className="h-4 w-4" /> Portofolio · Frontend & UI/UX</p>
         <h1 className="hero-title">Halo, saya <span>Emil.</span></h1>
         <p className="hero-role mt-6">Frontend Developer & UI/UX Enthusiast</p>
         <p className="hero-copy mt-5">
-          Saya merancang dan membangun pengalaman web yang terasa cepat, intuitif, dan punya karakter—dari ide pertama sampai siap digunakan.
+          Saya membangun antarmuka web yang responsif, intuitif, dan berkarakter dengan memadukan desain yang matang dan teknologi web modern.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center gap-3">

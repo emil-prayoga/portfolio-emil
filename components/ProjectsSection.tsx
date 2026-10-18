@@ -16,10 +16,11 @@ function ProjectLinks({ project }: { project: (typeof personalProjects)[number] 
 export default function ProjectsSection() {
   const featured = personalProjects;
   return (
-    <section id="portfolio" className="gallery-section scroll-mt-20 border-t border-white/10">
+    <section id="portfolio" className="gallery-section scroll-mt-20 ">
       <div className="gallery-shell">
+        
         <div className="gallery-heading">
-          <div><p className="gallery-label mb-4">Pilihan terbaru · 2025—2026</p><h2>Porto pilihan</h2></div>
+          <h2>Portofolio.</h2>
           <p>Produk digital dan portfolio yang saya bangun dengan fokus pada kegunaan, detail, dan performa.</p>
         </div>
 

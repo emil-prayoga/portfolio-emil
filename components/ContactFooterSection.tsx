@@ -34,10 +34,10 @@ export default function ContactFooterSection() {
   };
 
   return (
-    <section id="contact" className="scroll-mt-20 border-t border-white/10 bg-[#141417]">
+    <>
+    <section id="contact" className="scroll-mt-20 w-full">
       <div className="gallery-shell grid gap-12 py-20 sm:py-28 lg:grid-cols-[.9fr_1.1fr] lg:gap-20">
         <div>
-          <p className="gallery-label mb-4">Ada proyek menarik?</p>
           <h2 className="max-w-[9ch] text-5xl font-semibold leading-[.94] tracking-[-.07em] sm:text-6xl lg:text-7xl">Mari bikin sesuatu.</h2>
           <p className="mt-6 max-w-lg text-base leading-8 text-[#bcb9b1] sm:text-lg">Punya ide produk, butuh bantuan pengembangan web, atau ingin berkolaborasi? Ceritakan sedikit tentang rencanamu.</p>
           <div className="mt-10 space-y-5 border-t border-white/10 pt-6 text-sm">
@@ -56,7 +56,9 @@ export default function ContactFooterSection() {
         </form>
       </div>
 
-      <footer className="border-t border-white/10">
+    </section>
+
+      <footer className="w-full border-t border-white/10 bg-[#141417]">
         <div className="gallery-shell grid gap-10 py-10 sm:py-14 md:grid-cols-[1.2fr_.8fr_.8fr]">
           <div><p className="text-xl font-semibold tracking-tight">Emil Prayoga Albani</p><p className="mt-3 max-w-md text-sm leading-7 text-[#bcb9b1]">Mahasiswa Sistem Informasi & Web Developer yang berfokus pada pengembangan aplikasi web interaktif dan responsif.</p><div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm"><a href="https://github.com/emil-prayoga" target="_blank" rel="noopener noreferrer" className="gallery-focus text-[#bcb9b1] hover:text-[#c8f36a]">GitHub <ArrowUpRight aria-hidden="true" className="inline h-3.5 w-3.5" /></a><a href="https://linkedin.com/in/emilprayogaalbani" target="_blank" rel="noopener noreferrer" className="gallery-focus text-[#bcb9b1] hover:text-[#c8f36a]">LinkedIn <ArrowUpRight aria-hidden="true" className="inline h-3.5 w-3.5" /></a><a href="https://instagram.com/emil_prayoga_albani" target="_blank" rel="noopener noreferrer" className="gallery-focus text-[#bcb9b1] hover:text-[#c8f36a]">Instagram <ArrowUpRight aria-hidden="true" className="inline h-3.5 w-3.5" /></a></div></div>
           <nav aria-label="Navigasi footer"><h3 className="gallery-label mb-4">Navigasi</h3><ul className="grid grid-cols-2 gap-x-3 gap-y-2 text-sm text-[#bcb9b1]">{[["Beranda", "#home"], ["Tentang", "#about"], ["Pendidikan", "#education"], ["Pengalaman", "#experience"], ["Proyek", "#projects"], ["Keahlian", "#skills"]].map(([label, href]) => <li key={href}><a href={href} className="gallery-focus hover:text-[#c8f36a]">{label}</a></li>)}</ul></nav>
@@ -64,6 +66,6 @@ export default function ContactFooterSection() {
         </div>
         <div className="border-t border-white/10"><p className="gallery-shell py-4 text-xs text-[#89877f]">© {new Date().getFullYear()} Emil Prayoga Albani</p></div>
       </footer>
-    </section>
+    </>
   );
 }
