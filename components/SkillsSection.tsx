@@ -3,7 +3,7 @@ const skills = [
   { name: "Tailwind CSS", category: "Styling" }, { name: "TypeScript", category: "Language" },
   { name: "JavaScript", category: "Language" }, { name: "Supabase", category: "Backend / DB" },
   { name: "Figma & Stitch", category: "UI/UX Design" }, { name: "Git & GitHub", category: "Tools" },
-  { name: "HTML5 & CSS3", category: "Fundamentals" }, 
+  { name: "Shacdn UI & Framer Motion", category: "Library" }, 
 ];
 
 export default function SkillsSection() {
