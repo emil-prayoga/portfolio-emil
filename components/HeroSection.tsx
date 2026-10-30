@@ -11,9 +11,9 @@ export default function HeroSection() {
     <section id="home" className="hero gallery-shell grid grid-cols-1 items-center gap-12 md:grid-cols-[1.1fr_.9fr] md:gap-14 lg:gap-20">
       <div className="flex flex-col items-start">
         <h1 className="hero-title">Halo, saya <span>Emil.</span></h1>
-        <p className="hero-role mt-6">Frontend Developer & UI/UX Enthusiast</p>
+        <p className="hero-role mt-6">Web Developer</p>
         <p className="hero-copy mt-5">
-          Saya membangun antarmuka web yang responsif, intuitif, dan berkarakter dengan memadukan desain yang matang dan teknologi web modern.
+            Saya membangun aplikasi web yang responsif dan fungsional menggunakan React dan Next.js, mulai dari antarmuka pengguna hingga integrasi API, database, dan teknologi AI.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center gap-3">

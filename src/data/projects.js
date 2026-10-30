@@ -4,7 +4,7 @@ export const personalProjects = [
     title: "Smart UMKM",
     description: "Aplikasi web berbasis AI yang dirancang untuk membantu pelaku UMKM mengelola dan mengembangkan bisnis melalui fitur digital yang mendukung kebutuhan usaha.",
     tags: ["Next.js", "AI API Integration", "Supabase"],
-    link: "https://smart-umkm-sigma.vercel.app/",
+    link: "https://smart-umkm-sigma.vercel.app/dashboard",
     githubUrl: "https://github.com/emil-prayoga/smart-umkm",
   },
   {

@@ -1,9 +1,15 @@
 const skills = [
-  { name: "Next.js", category: "Framework" }, { name: "React.js", category: "Frontend" },
-  { name: "Tailwind CSS", category: "Styling" }, { name: "TypeScript", category: "Language" },
-  { name: "JavaScript", category: "Language" }, { name: "Supabase", category: "Backend / DB" },
-  { name: "Figma & Stitch", category: "UI/UX Design" }, { name: "Git & GitHub", category: "Tools" },
-  { name: "Shacdn UI & Framer Motion", category: "Library" }, 
+  { name: "JavaScript", category: "Language" },
+  { name: "TypeScript", category: "Language" },
+  { name: "React.js", category: "Frontend" },
+  { name: "Next.js", category: "Framework" },
+  { name: "Tailwind CSS", category: "Styling" },
+  { name: "shadcn/ui", category: "UI Library" },
+  { name: "Framer Motion", category: "Animation" },
+  { name: "Supabase", category: "Backend & Database" },
+  { name: "REST API", category: "Integration" },
+  { name: "Git & GitHub", category: "Tools" },
+  { name: "Figma & Stitch", category: "UI/UX Design" },
 ];
 
 export default function SkillsSection() {
