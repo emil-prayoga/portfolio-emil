@@ -1,7 +1,7 @@
 
 const education = {
   degree: "S1 Sistem Informasi",
-  institution: "Universitas Bahauddin Mudhary Madura",
+  institution: "Universitas Bahaudin Mudhary Madura",
   period: "2024 - Sekarang",
   description:
     "Mempelajari pengembangan perangkat lunak, basis data, dan teknologi web sebagai bagian dari studi Sistem Informasi.",
@@ -10,7 +10,7 @@ const education = {
 const experiences = [
   {
     role: "Asisten Praktikum Database",
-    organization: "Universitas Bahauddin Mudhary Madura",
+    organization: "Universitas Bahaudin Mudhary Madura",
     period: "Apr 2026 - Jul 2026",
     description: [
       "Berkolaborasi dengan tim asisten dalam membimbing 35+ mahasiswa mempelajari SQL menggunakan MySQL, mencakup query, DDL/DML, dan pengelolaan basis data.",
@@ -19,19 +19,20 @@ const experiences = [
   },
   
 {
-  role: "Freelance Web Developer",
+  role: "Pengembangan Web Mandiri",
   organization: "Proyek Mandiri & Pengembangan Portofolio",
   period: "Mar 2026 - Sekarang",
   description: [
     "Mengembangkan proyek web mandiri menggunakan React dan Next.js dengan fokus pada antarmuka responsif, pengalaman pengguna, dan implementasi UI/UX.",
     "Memanfaatkan AI-assisted development untuk membantu implementasi komponen UI, sekaligus meninjau dan menyesuaikan kode sesuai kebutuhan proyek.",
-    "Secara aktif menjangkau prospek UMKM dan mengeksplorasi peluang freelance serta kolaborasi di bidang pengembangan website dan sistem informasi."
-  ],
+    "Contoh keputusan yang diambil sendiri: merancang skema data (relasi produk, pesanan, pengguna) dan validasi input sebelum data disimpan, agar aplikasi tetap aman dan konsisten.",
+    "Secara aktif membangun jaringan profesional, menjangkau prospek UMKM, serta mengeksplorasi peluang proyek freelance dan kolaborasi di bidang pengembangan website dan sistem informasi."
+  ]
 },
 
   {
     role: "Asisten Praktikum Python",
-    organization: "Universitas Bahauddin Mudhary Madura",
+    organization: "Universitas Bahaudin Mudhary Madura",
     period: "Nov 2025 - Jan 2026",
     description: [
       "Membimbing 25+ praktikan dalam memahami konsep algoritma dan pemrograman menggunakan Python.",
@@ -89,7 +90,7 @@ export default function EducationExperienceSection() {
       <section id="experience" className="scroll-mt-24">
         <div className="gallery-heading">
           <h2>Pengalaman.</h2>
-          <p>Perjalanan pengalaman profesional saya.</p>
+          <p>Pengalaman kerja, kegiatan, dan proyek mandiri saya.</p>
         </div>
         <div className="border-t border-white/15">
           {experiences.map((experience) => <ExperienceEntry key={experience.role} experience={experience} />)}
