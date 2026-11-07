@@ -19,8 +19,8 @@ const experiences = [
   },
   
 {
-  role: "Pengembangan Web Mandiri",
-  organization: "Proyek Mandiri & Pengembangan Portofolio",
+  role: "Freelance Web",
+  organization: "Emilabs",
   period: "Mar 2026 - Sekarang",
   description: [
     "Mengembangkan proyek web mandiri menggunakan React dan Next.js dengan fokus pada antarmuka responsif, pengalaman pengguna, dan implementasi UI/UX.",
