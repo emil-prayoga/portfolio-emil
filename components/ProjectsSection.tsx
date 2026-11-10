@@ -1,29 +1,34 @@
 import Image from "next/image";
 import { ArrowUpRight, Code2 } from "lucide-react";
 import { personalProjects } from "@/src/data/projects";
+import { t, type Locale } from "@/src/data/translations";
 
-function ProjectLinks({ project }: { project: (typeof personalProjects)[number] }) {
+function ProjectLinks({ project, locale }: { project: (typeof personalProjects)[number]; locale: Locale }) {
   return (
     <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
       <a href={project.link} target="_blank" rel="noopener noreferrer" className="gallery-focus inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-[#e7785d] transition-colors hover:text-[#ffad96]">
-        Lihat proyek<span className="sr-only"> {project.title} (membuka tab baru)</span> <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
+        {t(locale, "projects.ctaView")}<span className="sr-only"> {t(locale, "projects.ariaOpenTab", { title: project.title })}</span> <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
       </a>
-      {project.githubUrl && <a href={project.githubUrl.trim()} target="_blank" rel="noopener noreferrer" className="gallery-focus inline-flex min-h-11 items-center gap-2 text-sm text-[#bcb9b1] transition-colors hover:text-white"><Code2 aria-hidden="true" className="h-4 w-4" /> Repository<span className="sr-only"> {project.title} (membuka tab baru)</span></a>}
+      {project.githubUrl && <a href={project.githubUrl.trim()} target="_blank" rel="noopener noreferrer" className="gallery-focus inline-flex min-h-11 items-center gap-2 text-sm text-[#bcb9b1] transition-colors hover:text-white"><Code2 aria-hidden="true" className="h-4 w-4" /> {t(locale, "projects.ctaRepository")}<span className="sr-only"> {t(locale, "projects.ariaRepoTab", { title: project.title })}</span></a>}
     </div>
   );
 }
 
-export default function ProjectsSection() {
+export default function ProjectsSection({ locale }: Readonly<{ locale: Locale }>) {
   const featured = personalProjects;
+  const englishCopy: Record<number, { description: string; outcome: string }> = {
+    1: { description: "An AI-powered web app that helps small businesses manage and grow through digital tools tailored to their needs.", outcome: "Focus: SME dashboard, AI assistant, and business data management. Independent decision: data schema design and input validation." },
+    2: { description: "A React-based online store with a product catalog and responsive interface designed for a comfortable shopping experience.", outcome: "Focus: product catalog, cart, and responsive checkout." },
+    3: { description: "A web-based information system for structured and efficient resident data and neighborhood administration.", outcome: "Focus: resident data, administration, and committee dashboard." },
+    4: { description: "An AI-powered web app that helps users create content through an interactive, easy-to-use interface.", outcome: "Focus: automated content creation and result history." },
+  };
   return (
     <section id="portfolio" className="gallery-section scroll-mt-20 ">
       <div className="gallery-shell">
-        
         <div className="gallery-heading">
-          <h2>Portofolio.</h2>
-          <p>Portofolio yang saya bangun dengan fokus pada kegunaan, detail, dan performa.</p>
+          <h2>{t(locale, "projects.heading")}</h2>
+          <p>{t(locale, "projects.subheading")}</p>
         </div>
-
         <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {featured.map((project) => (
             <article key={project.id} className="project-card flex min-h-full flex-col p-5 sm:p-6">
@@ -33,16 +38,16 @@ export default function ProjectsSection() {
                 </div>
               )}
               <div className="mb-6 flex items-center justify-between">
-                <span className="gallery-label">Proyek mandiri</span>
+                <span className="gallery-label">{t(locale, "projects.label")}</span>
                 <ArrowUpRight aria-hidden="true" className="h-4 w-4 text-[#c8f36a]" />
               </div>
               <h3 className="text-2xl font-semibold leading-tight tracking-[-.045em]">{project.title}</h3>
-              <p className="mt-3 flex-1 text-sm leading-7 text-[#bcb9b1]">{project.description}</p>
-              {project.outcome && <p className="mt-3 text-xs font-medium text-[#c8f36a]">{project.outcome}</p>}
-              <ul className="mt-5 flex flex-wrap gap-2" aria-label={`Teknologi ${project.title}`}>
+              <p className="mt-3 flex-1 text-sm leading-7 text-[#bcb9b1]">{locale === "en" ? englishCopy[project.id].description : project.description}</p>
+              {project.outcome && <p className="mt-3 text-xs font-medium text-[#c8f36a]">{locale === "en" ? englishCopy[project.id].outcome : project.outcome}</p>}
+              <ul className="mt-5 flex flex-wrap gap-2" aria-label={t(locale, "projects.ariaTech", { title: project.title })}>
                 {project.tags.map((tag) => <li key={tag} className="tag-pill">{tag}</li>)}
               </ul>
-              <ProjectLinks project={project} />
+              <ProjectLinks project={project} locale={locale} />
             </article>
           ))}
         </div>

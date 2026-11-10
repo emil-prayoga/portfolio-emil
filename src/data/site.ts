@@ -1,1 +1,1 @@
-export const siteUrl = "https://portofolio-emil-prayoga-albani.vercel.app";
+export const siteUrl = "https://emil-prayoga-albani.my.id";

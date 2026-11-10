@@ -1,0 +1,188 @@
+{
+  "locale": "id",
+  "htmlLang": "id",
+  "ogLocale": "id_ID",
+  "jsonLdLanguage": "id-ID",
+
+  "site": {
+    "title": "Emil Prayoga Albani — Web Developer React & Next.js",
+    "description": "Web developer dari Sumenep, Madura. Membangun website dan aplikasi web responsif dengan React, Next.js, Supabase, dan integrasi AI untuk UMKM dan tim produk. Terbuka untuk freelance dan remote.",
+    "keywords": ["Emil Prayoga Albani", "web developer Sumenep", "web developer Madura", "jasa pembuatan website UMKM", "Next.js developer Indonesia", "React developer"],
+    "siteName": "Emil Prayoga Albani",
+    "ogTitle": "Emil Prayoga Albani — Web Developer React & Next.js",
+    "ogDescription": "Web developer dari Sumenep, Madura. Membangun website dan aplikasi web responsif dengan React, Next.js, Supabase, dan integrasi AI untuk UMKM dan tim produk. Terbuka untuk freelance dan remote.",
+    "twitterTitle": "Emil Prayoga Albani — Web Developer React & Next.js",
+    "twitterDescription": "Web developer dari Sumenep, Madura. Membangun website dan aplikasi web responsif dengan React, Next.js, Supabase, dan integrasi AI untuk UMKM dan tim produk. Terbuka untuk freelance dan remote.",
+    "canonical": "/"
+  },
+
+  "jsonLd": {
+    "person": {
+      "name": "Emil Prayoga Albani",
+      "jobTitle": "Web Developer (React & Next.js)",
+      "description": "Web developer yang membangun aplikasi web responsif dengan React, Next.js, Supabase, dan integrasi AI.",
+      "addressLocality": "Sumenep",
+      "addressRegion": "Jawa Timur",
+      "addressCountry": "ID",
+      "siteName": "Emil Prayoga Albani - Portofolio",
+      "inLanguage": "id-ID"
+    },
+    "knowsAbout": ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Supabase", "REST API", "AI integration", "UI/UX"]
+  },
+
+  "skipLink": "Lewati ke konten utama",
+
+  "navbar": {
+    "ariaLabel": "Navigasi utama",
+    "logoAriaLabel": "Emil Prayoga Albani, kembali ke beranda",
+    "brand": "Emil Prayoga",
+    "brandSub": "PORTFOLIO",
+    "links": {
+      "home": "Beranda",
+      "about": "Tentang",
+      "education": "Pendidikan",
+      "experience": "Pengalaman",
+      "portfolio": "Portofolio",
+      "services": "Layanan",
+      "skills": "Keahlian"
+    },
+    "cta": "Mari terhubung",
+    "menuOpen": "Buka menu navigasi",
+    "menuClose": "Tutup menu navigasi",
+    "languageSwitcher": "Ganti bahasa",
+    "langId": "Indonesia",
+    "langEn": "English"
+  },
+
+  "hero": {
+    "heading": "Halo, saya <span>Emil.</span>",
+    "role": "Web Developer · React & Next.js",
+    "copy": "Saya membantu UMKM dan tim produk punya website yang cepat, mudah dipakai, dan siap dikembangkan — dari tampilan sampai database dan fitur AI.",
+    "ctaContact": "Hubungi saya",
+    "ctaDownloadCV": "Unduh CV (PDF)",
+    "badge": "Terbuka untuk proyek freelance · balas &lt; 24 jam",
+    "name": "Emil Prayoga Albani",
+    "location": "Sumenep, Jawa Timur",
+    "imageAlt": "Potret Emil Prayoga Albani"
+  },
+
+  "about": {
+    "heading": "Tentang saya.",
+    "subheading": "Mengenal lebih dekat perjalanan dan pendekatan saya dalam pengembangan web.",
+    "description": "Saya Web Developer yang berfokus pada pengembangan aplikasi web menggunakan React dan Next.js. Saya memiliki pengalaman membangun antarmuka yang responsif, mengintegrasikan API, serta mengembangkan fitur berbasis database dan AI. Berkedudukan di Sumenep, Madura, saya terbuka terhadap peluang freelance maupun kolaborasi.",
+    "highlights": [
+      { "value": "4", "label": "Aplikasi live" },
+      { "value": "Full-Stack", "label": "Web Development" },
+      { "value": "AI Integration", "label": "Pengembangan Fitur" }
+    ],
+    "ctaExperience": "Lihat perjalanan saya"
+  },
+
+  "educationExperience": {
+    "educationHeading": "Pendidikan.",
+    "educationSubheading": "Perjalanan akademik dan pencapaian saya.",
+    "experienceHeading": "Pengalaman.",
+    "experienceSubheading": "Pengalaman kerja, kegiatan, dan proyek mandiri saya.",
+    "education": {
+      "degree": "S1 Sistem Informasi",
+      "institution": "Universitas Bahaudin Mudhary Madura",
+      "period": "2024 - Sekarang",
+      "description": "Mempelajari pengembangan perangkat lunak, basis data, dan teknologi web sebagai bagian dari studi Sistem Informasi."
+    }
+  },
+
+  "skills": {
+    "heading": "Alat di balik karya.",
+    "subheading": "Teknologi yang saya gunakan untuk merancang, membangun, dan mengirim web."
+  },
+
+  "projects": {
+    "heading": "Portofolio.",
+    "subheading": "Portofolio yang saya bangun dengan fokus pada kegunaan, detail, dan performa.",
+    "label": "Proyek mandiri",
+    "ctaView": "Lihat proyek",
+    "ctaRepository": "Repository",
+    "ariaTech": "Teknologi {title}",
+    "ariaOpenTab": "{title} (membuka tab baru)",
+    "ariaRepoTab": "Repository {title} (membuka tab baru)"
+  },
+
+  "services": {
+    "heading": "Layanan.",
+    "subheading": "Solusi website yang fokus ke hasil bisnis: lebih dipercaya, mudah dihubungi, cepat.",
+    "items": [
+      {
+        "title": "Company Profile",
+        "description": "Website perusahaan/UMKM yang rapi, cepat, dan mudah ditemukan di Google. Cocok untuk membangun kepercayaan calon pelanggan."
+      },
+      {
+        "title": "Katalog Produk",
+        "description": "Tampilkan produk/jasa dengan kategori, pencarian, dan tombol order via WhatsApp. Tanpa ribet checkout."
+      },
+      {
+        "title": "Toko Online",
+        "description": "E-commerce sederhana dengan keranjang, checkout, dan panel admin untuk kelola produk & pesanan."
+      },
+      {
+        "title": "Sistem Informasi",
+        "description": "Aplikasi internal (RT, kasir, inventori, dashboard) yang menata data dan menghemat waktu kerja."
+      }
+    ],
+    "processHeading": "Proses kerja",
+    "processSteps": [
+      "Diskusi kebutuhan & tujuan (gratis, 30 menit)",
+      "Desain & prototipe, revisi sampai setuju",
+      "Pengembangan, testing, & pelatihan penggunaan",
+      "Launch + bantuan purna jual"
+    ],
+    "estimateHeading": "Estimasi",
+    "estimateItems": [
+      "Company profile / katalog: 1–3 minggu",
+      "Toko online: 3–6 minggu",
+      "Sistem informasi: sesuai kompleksitas",
+      "Harga: menyesuaikan kebutuhan (diskusi dulu)"
+    ],
+    "ctaWhatsApp": "Diskusikan kebutuhan website",
+    "whatsappMessage": "Halo Emil, saya mau tanya soal pembuatan website",
+    "srOnlyOpenTab": "(membuka tab baru)"
+  },
+
+  "contact": {
+    "heading": "Mari bikin sesuatu.",
+    "subheading": "Punya ide produk, butuh bantuan pengembangan web, atau ingin berkolaborasi? Ceritakan sedikit tentang rencanamu.",
+    "ctaWhatsApp": "Diskusikan proyek via WhatsApp",
+    "whatsappMessage": "Halo Emil, saya ingin membahas kebutuhan website untuk bisnis atau proyek saya.",
+    "srOnlyOpenTab": "(membuka tab baru)",
+    "emailLabel": "Email",
+    "emailAddress": "emilalbani54@gmail.com",
+    "copyEmail": "Salin email",
+    "formHeading": "Kirim pesan",
+    "formNameLabel": "Nama",
+    "formNamePlaceholder": "Nama Anda",
+    "formEmailLabel": "Email",
+    "formEmailPlaceholder": "email@contoh.com",
+    "formMessageLabel": "Pesan",
+    "formMessagePlaceholder": "Ceritakan tentang ide atau proyekmu...",
+    "formSubmit": "Kirim Pesan",
+    "formSubmitting": "Mengirim...",
+    "formSuccess": "Pesan berhasil terkirim! Terima kasih.",
+    "formError": "Gagal mengirim pesan. Silakan coba lagi.",
+    "socialGitHub": "GitHub",
+    "socialLinkedIn": "LinkedIn",
+    "socialInstagram": "Instagram",
+    "footerNavHeading": "Navigasi",
+    "footerWorksHeading": "Karya",
+    "copyright": "© {year} Emil Prayoga Albani",
+    "footerAdditionalHeading": "Informasi tambahan",
+    "bio": "Mahasiswa Sistem Informasi & Web Developer (React & Next.js) yang membangun website dan aplikasi web responsif. Terbuka untuk freelance dan remote."
+  },
+
+  "cv": {
+    "downloadTitle": "Unduh CV (PDF)",
+    "downloadAria": "Unduh CV Emil Prayoga Albani"
+  },
+
+  "footer": {
+    "copyright": "© {year} Emil Prayoga Albani"
+  }
+}

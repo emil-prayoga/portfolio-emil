@@ -1,0 +1,203 @@
+{
+  "locale": "en",
+  "htmlLang": "en",
+  "ogLocale": "en_US",
+  "jsonLdLanguage": "en-US",
+
+  "skipLink": "Skip to main content",
+  "navbar": {
+    "ariaLabel": "Main navigation",
+    "logoAriaLabel": "Emil Prayoga Albani, back to home",
+    "brand": "Emil Prayoga",
+    "brandSub": "PORTFOLIO",
+    "links": { "home": "Home", "about": "About", "education": "Education", "experience": "Experience", "portfolio": "Portfolio", "services": "Services", "skills": "Skills" },
+    "cta": "Let's connect",
+    "menuOpen": "Open navigation menu",
+    "menuClose": "Close navigation menu",
+    "languageSwitcher": "Change language",
+    "langId": "Indonesia",
+    "langEn": "English"
+  },
+
+  "site": {
+    "title": "Emil Prayoga Albani — Web Developer React & Next.js",
+    "description": "Web developer from Sumenep, Madura. Building responsive websites and web applications with React, Next.js, Supabase, and AI integration for SMEs and product teams. Open to freelance and remote work.",
+    "keywords": ["Emil Prayoga Albani", "web developer Sumenep", "web developer Madura", "SME website development services", "Next.js developer Indonesia", "React developer"],
+    "siteName": "Emil Prayoga Albani",
+    "ogTitle": "Emil Prayoga Albani — Web Developer React & Next.js",
+    "ogDescription": "Web developer from Sumenep, Madura. Building responsive websites and web applications with React, Next.js, Supabase, and AI integration for SMEs and product teams. Open to freelance and remote work.",
+    "twitterTitle": "Emil Prayoga Albani — Web Developer React & Next.js",
+    "twitterDescription": "Web developer from Sumenep, Madura. Building responsive websites and web applications with React, Next.js, Supabase, and AI integration for SMEs and product teams. Open to freelance and remote work.",
+    "canonical": "/"
+  },
+
+  "jsonLd": {
+    "person": {
+      "name": "Emil Prayoga Albani",
+      "jobTitle": "Web Developer (React & Next.js)",
+      "description": "Web developer building responsive web applications with React, Next.js, Supabase, and AI integration.",
+      "addressLocality": "Sumenep",
+      "addressRegion": "East Java",
+      "addressCountry": "ID",
+      "siteName": "Emil Prayoga Albani - Portfolio",
+      "inLanguage": "en-US"
+    },
+    "knowsAbout": ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Supabase", "REST API", "AI integration", "UI/UX"]
+  },
+
+  "skipLink": "Skip to main content",
+
+  "navbar": {
+    "ariaLabel": "Main navigation",
+    "logoAriaLabel": "Emil Prayoga Albani, return to home",
+    "brand": "Emil Prayoga",
+    "brandSub": "PORTFOLIO",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "education": "Education",
+      "experience": "Experience",
+      "portfolio": "Portfolio",
+      "services": "Services",
+      "skills": "Skills"
+    },
+    "cta": "Get in touch",
+    "menuOpen": "Open navigation menu",
+    "menuClose": "Close navigation menu",
+    "languageSwitcher": "Change language",
+    "langId": "Indonesia",
+    "langEn": "English"
+  },
+
+  "hero": {
+    "heading": "Hello, I'm <span>Emil.</span>",
+    "role": "Web Developer · React & Next.js",
+    "copy": "I help SMEs and product teams build websites that are fast, easy to use, and ready to scale — from design to database and AI features.",
+    "ctaContact": "Contact me",
+    "ctaDownloadCV": "Download CV (PDF)",
+    "badge": "Open for freelance projects · reply &lt; 24 hours",
+    "name": "Emil Prayoga Albani",
+    "location": "Sumenep, East Java",
+    "imageAlt": "Portrait of Emil Prayoga Albani"
+  },
+
+  "about": {
+    "heading": "About me.",
+    "subheading": "Getting to know my journey and approach to web development.",
+    "description": "I am a Web Developer focused on building web applications using React and Next.js. I have experience building responsive interfaces, integrating APIs, and developing database and AI-based features. Based in Sumenep, Madura, I am open to freelance and collaboration opportunities.",
+    "highlights": [
+      { "value": "4", "label": "Live applications" },
+      { "value": "Full-Stack", "label": "Web Development" },
+      { "value": "AI Integration", "label": "Feature Development" }
+    ],
+    "ctaExperience": "See my journey"
+  },
+
+  "educationExperience": {
+    "educationHeading": "Education.",
+    "educationSubheading": "My academic journey and achievements.",
+    "experienceHeading": "Experience.",
+    "experienceSubheading": "Work experience, activities, and independent projects.",
+    "education": {
+      "degree": "Bachelor of Information Systems",
+      "institution": "Universitas Bahaudin Mudhary Madura",
+      "period": "2024 - Present",
+      "description": "Studying software development, databases, and web technology as part of the Information Systems program."
+    }
+  },
+
+  "skills": {
+    "heading": "Tools behind the work.",
+    "subheading": "Technologies I use to design, build, and ship websites."
+  },
+
+  "projects": {
+    "heading": "Portfolio.",
+    "subheading": "Portfolio built with a focus on usability, detail, and performance.",
+    "label": "Independent project",
+    "ctaView": "View project",
+    "ctaRepository": "Repository",
+    "ariaTech": "Technologies {title}",
+    "ariaOpenTab": "{title} (opens in new tab)",
+    "ariaRepoTab": "Repository {title} (opens in new tab)"
+  },
+
+  "services": {
+    "heading": "Services.",
+    "subheading": "Website solutions focused on business results: more trusted, easy to contact, fast.",
+    "items": [
+      {
+        "title": "Company Profile",
+        "description": "Clean, fast, and Google-discoverable company/SME website. Ideal for building trust with potential customers."
+      },
+      {
+        "title": "Product Catalog",
+        "description": "Showcase products/services with categories, search, and WhatsApp order buttons. No complicated checkout."
+      },
+      {
+        "title": "Online Store",
+        "description": "Simple e-commerce with cart, checkout, and admin panel to manage products & orders."
+      },
+      {
+        "title": "Information System",
+        "description": "Internal applications (RT, cashier, inventory, dashboard) that organize data and save work time."
+      }
+    ],
+    "processHeading": "Work process",
+    "processSteps": [
+      "Needs & goal discussion (free, 30 minutes)",
+      "Design & prototype, revisions until approved",
+      "Development, testing, & usage training",
+      "Launch + after-sales support"
+    ],
+    "estimateHeading": "Estimate",
+    "estimateItems": [
+      "Company profile / catalog: 1–3 weeks",
+      "Online store: 3–6 weeks",
+      "Information system: based on complexity",
+      "Price: adjusted to needs (discuss first)"
+    ],
+    "ctaWhatsApp": "Discuss website needs",
+    "whatsappMessage": "Hello Emil, I want to ask about website development",
+    "srOnlyOpenTab": "(opens in new tab)"
+  },
+
+  "contact": {
+    "heading": "Let's build something.",
+    "subheading": "Have a product idea, need web development help, or want to collaborate? Tell me a little about your plans.",
+    "ctaWhatsApp": "Discuss project via WhatsApp",
+    "whatsappMessage": "Hello Emil, I want to discuss website needs for my business or project.",
+    "srOnlyOpenTab": "(opens in new tab)",
+    "emailLabel": "Email",
+    "emailAddress": "emilalbani54@gmail.com",
+    "copyEmail": "Copy email",
+    "formHeading": "Send message",
+    "formNameLabel": "Name",
+    "formNamePlaceholder": "Your name",
+    "formEmailLabel": "Email",
+    "formEmailPlaceholder": "email@example.com",
+    "formMessageLabel": "Message",
+    "formMessagePlaceholder": "Tell me about your idea or project...",
+    "formSubmit": "Send Message",
+    "formSubmitting": "Sending...",
+    "formSuccess": "Message sent successfully! Thank you.",
+    "formError": "Failed to send message. Please try again.",
+    "socialGitHub": "GitHub",
+    "socialLinkedIn": "LinkedIn",
+    "socialInstagram": "Instagram",
+    "footerNavHeading": "Navigation",
+    "footerWorksHeading": "Works",
+    "copyright": "© {year} Emil Prayoga Albani",
+    "footerAdditionalHeading": "Additional information",
+    "bio": "Information Systems student & Web Developer (React & Next.js) building responsive websites and web applications. Open to freelance and remote work."
+  },
+
+  "cv": {
+    "downloadTitle": "Download CV (PDF)",
+    "downloadAria": "Download CV Emil Prayoga Albani"
+  },
+
+  "footer": {
+    "copyright": "© {year} Emil Prayoga Albani"
+  }
+}
