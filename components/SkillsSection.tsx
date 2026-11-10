@@ -10,7 +10,7 @@ const skills = [
   { name: "Framer Motion", category: "Animation" },
   { name: "Supabase", category: "Backend & Database" },
   { name: "REST API", category: "Integration" },
-  { name: "Node.js", category: "Runtime"},
+  { name: "Node.js", category: "Backend & Database"},
   { name: "Git & GitHub", category: "Tools" },
   { name: "Figma & Stitch", category: "UI/UX Design" },
 ];
@@ -25,6 +25,7 @@ export default function SkillsSection({ locale }: Readonly<{ locale: Locale }>) 
     Animation: locale === "en" ? "Animation" : "Animasi",
     "Backend & Database": locale === "en" ? "Backend & Database" : "Backend & Database",
     Integration: locale === "en" ? "Integration" : "Integrasi",
+    Runtime: locale === "en" ? "Runtime" : "Runtime",
     Tools: locale === "en" ? "Tools" : "Alat",
     "UI/UX Design": locale === "en" ? "UI/UX Design" : "Desain UI/UX",
   };
