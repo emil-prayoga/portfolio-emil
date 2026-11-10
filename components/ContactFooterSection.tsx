@@ -92,7 +92,7 @@ export default function ContactFooterSection({ locale }: Readonly<{ locale: Loca
           <div className="mt-10 space-y-5 border-t border-white/10 pt-6 text-sm">
             <div><p className="gallery-label mb-2">{t(locale, "contact.emailLabel")}</p><div className="flex flex-wrap items-center gap-3"><a href="mailto:emilalbani54@gmail.com" className="gallery-focus text-base text-[#f1efe9] transition-colors hover:text-[#c8f36a]">emilalbani54@gmail.com</a>            <button type="button" onClick={() => { track("copy_email"); handleCopyEmail(); }} className="gallery-focus inline-flex min-h-9 items-center rounded-full border border-white/15 px-3 text-xs font-semibold text-[#bcb9b1] transition-colors hover:text-[#c8f36a]">{copied ? t(locale, "contact.copyEmail") : t(locale, "contact.copyEmail")}</button></div></div>
             <div><p className="gallery-label mb-2">WhatsApp</p><a href="https://wa.me/6281959663120" target="_blank" rel="noopener noreferrer" className="gallery-focus text-base text-[#f1efe9] transition-colors hover:text-[#c8f36a]">+62 819-5966-3120<span className="sr-only"> {t(locale, "contact.srOnlyOpenTab")}</span></a></div>
-            <div><p className="gallery-label mb-2">Ketersediaan</p><p className="text-base text-[#d2cfc7]">Terbuka untuk Freelance & Remote</p></div>
+            <div><p className="gallery-label mb-2">{t(locale, "contact.ketersediaanLabel")}</p><p className="text-base text-[#d2cfc7]">{t(locale, "contact.ketersediaanDescription")}</p></div>
           </div>
         </div>
 
